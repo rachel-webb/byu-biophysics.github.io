@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.byu.edu/'>Brigham Young University</a>
+subtitle: "<a href='https://www.byu.edu/'>Brigham Young University</a>"
 
 profile:
   align: right
