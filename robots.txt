@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://byu-biophysics.github.io/sitemap.xml
