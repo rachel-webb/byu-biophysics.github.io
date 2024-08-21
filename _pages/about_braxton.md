@@ -4,4 +4,4 @@ Braxton's research experience includes work in machine learning and computer vis
 
 His technical skills include coding in Python and using technologies such as PyTorch, NumPy, and JAX for machine learning. He is experienced with linear algebra for predictive modeling and is proficient in GNU/Linux and high-performance computing.
 
-Outside of his professional work, Braxton is a father of three boys and enjoys snowboarding, contributing to open source projects, and learning new things. His favorite recent project was building his own keyboard (and now he has a hard time adjusting to regular ones).
+Outside of his professional work, Braxton is a father of three boys and enjoys snowboarding, contributing to open source projects, and learning new things.
