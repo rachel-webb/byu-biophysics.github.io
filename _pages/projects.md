@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: List of projects that we think are cool!
+description: Take a look at our current projects, or cruise around some of our past projects! 
 nav: true
 nav_order: 3
 display_categories: [ImageAI]
