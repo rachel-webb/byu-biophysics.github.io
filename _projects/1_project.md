@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: Kaggle competitions
+title: Kaggle Competition
+description: Exciting description! 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: ImageAI
 related_publications: true
 ---
 
