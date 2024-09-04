@@ -2,10 +2,10 @@
 layout: page
 title: Meet the Team
 permalink: /team/
-description: As an interdisciplinary team, we have a LOT going on. Here are some of our current efforts to advance the scientific community.
+description: Our team is made up of a group of interdisciplinary professors, grad students, post-doctoral scholars, undergraduateas, and research staff. Click on each person to get to know them better! 
 nav: true
 nav_order: 3
-display_categories: [Leaders, URAs, Staff] 
+display_categories: [Leaders, Grad Students, Undergraduates, Research Staff] 
 horizontal: false
 ---
 
