@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Meet the Team
-permalink: /Meet the Team/
-description: 
+permalink: /team/
+description: As an interdisciplinary team, we have a LOT going on. Here are some of our current efforts to advance the scientific community.
 nav: true
 nav_order: 3
-display_categories: [Leading the Group, Grad Students, Undergrads, Research Staff] 
+display_categories: [Leaders, URAs, Staff] 
 horizontal: false
 ---
 
@@ -17,7 +17,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = site.team | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
