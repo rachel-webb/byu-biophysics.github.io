@@ -4,7 +4,7 @@ title: Efforts
 permalink: /projects/
 description: As an interdisciplinary team, we have a LOT going on. Here are some of our current efforts to advance the scientific community.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [ImageAI, SAM] 
 horizontal: false
 ---
