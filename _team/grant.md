@@ -4,7 +4,7 @@ title: Grant Jensen
 description: Dean, College of Computational, Mathematical, and Physical Sciences
 img: assets/img/Jensen_Grant_profile_pic.jpg
 importance: 3
-category: Leaders
+category: PIs
 related_publications: false
 ---
 

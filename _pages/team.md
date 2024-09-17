@@ -5,7 +5,7 @@ permalink: /team/
 description: Our team is made up of a group of interdisciplinary professors, grad students, post-doctoral scholars, undergraduates, and research staff. Click on each person to get to know them better! 
 nav: true
 nav_order: 3
-display_categories: [Leaders, Grad Students, Undergraduates, Research Staff] 
+display_categories: [PIs, Grad Students, Research Staff, Undergraduates] 
 horizontal: false
 ---
 

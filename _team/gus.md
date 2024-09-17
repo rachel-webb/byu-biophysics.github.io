@@ -4,7 +4,7 @@ title: Gus Hart
 description: Professor, Machine learning, modeling and simulation, and biophysics
 img: assets/img/gus_hart_profile_pic.png
 importance: 1
-category: Leaders
+category: PIs
 related_publications: false
 ---
 
