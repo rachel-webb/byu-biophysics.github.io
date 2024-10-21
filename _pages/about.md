@@ -6,7 +6,7 @@ subtitle: Brigham Young University
 
 profile:
   align: right
-  image: bacteria.jpg
+  image: biophysics_lab.png
   image_circular: false # crops the image to make it circular
   more_info: >
 

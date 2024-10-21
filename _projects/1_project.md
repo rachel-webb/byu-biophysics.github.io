@@ -1,77 +1,42 @@
 ---
 layout: page
 title: Kaggle Competition
-description: Exciting description! 
-img: assets/img/12.jpg
+description: Detect and label flagellar motors in 3D images of various bacteria.
+img: assets/img/bacteria.jpg
 importance: 1
 category: ImageAI
 related_publications: true
 ---
 
+# Locating Biomolecular Nanomachines 
 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Overview
+In this competition, you’ll create machine-learning algorithms capable of identifying and locating flagellar motors in 3D images of various bacteria. The data set is comprised of ~750 3D bacterium images that may or may not contain a flagellar motor. The images have a low signal-to-noise ratio due to the microscopic nature of the bacteria. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Description
+Bacteria are powerful, unique organisms that play a significant, and sometimes deadly, role in human life. Understanding the nanomachines that power bacteria is critical to developing effective drugs and improving disease research. 
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+A powerful way to understand these nanomachines is to know what they look like. Scientists use electron microscopes to image bacteria frozen in a lifelike state from different angles. These images are then reconstructed into complete 3D images known as tomograms. Despite a low signal-to-noise ratio, these tomograms can provide near-atomic resolution of nanomachines.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Though much of the imaging process is automated, a significant bottleneck in the identification of these nanomachines is the manual segmenting (separating a tomogram into the important structures within a bacterium) and labeling process. 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+This competition challenges you to create an algorithm that can differentiate between bacteria with and without flagellar motors, nanomachines that control flagella and allow the bacteria to turn and swim. Your algorithm will then accurately identify where the motors are, if applicable. Your efforts will significantly reduce the time spent identifying microscopic structures in bacteria, thus accelerating scientific research that can lead to improved drug development and disease research. 
 
-{% raw %}
+## Possible Approaches 
+Lots of existing technologies are available for use to help with this problem, and we encourage you to use as many resources as possible. Some resources that we have used include the following: 
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+-	Automatic particle pickers (ex., DeepET Picker)
+-	Segment Anything Model (SAM)
+-	Ray features
+-	Template matching
+-	YOLO and other neural networks 
 
-{% endraw %}
+Our first two community Kaggle competitions used datasets of 2D slices of tomograms to identify the flagellar motors, and participants used a variety of data augmentation techniques and object detection algorithms to classify and predict motor location within each image. 
+
+## Acknowledgements
+Our efforts are supported by a grant from the Chan-Zuckerberg Initiative (CZI). We’d like to thank Grant Jensen and his lab, which has supplied us with ~40,000 tomograms to sort through for our data set. We’d also like to note that the Jensen lab has been working with CZI to create a cryo-electron tomography portal, where researchers can publicly upload and access tomograms to enhance world-wide cooperativity. 
+
+Lastly, we’d like to thank Kaggle for believing in this problem, supplementing our prize pool money, and allowing us to reach members of the machine learning and computer vision communities.
+
+  
