@@ -4,7 +4,7 @@ title: Zhiping Zhang
 description: Lab Manager
 img: assets/img/zhiping_profile.jpeg
 importance: 1
-category: Research Staff
+category:
 related_publications: false
 ---
 
